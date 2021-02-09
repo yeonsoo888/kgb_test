@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
-}
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Sen:400,700&display=swap&subset=korean,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+html, body { margin: 0; width: 100%; height: 100%; position:relative; padding: 0; }
+* {margin:0; padding:0; list-style:none; text-decoration:none; font-family: 'Noto Sans KR', sans-serif; font-size: 16px; outline: none; -webkit-text-size-adjust: none; box-sizing: border-box;}
+ul>li>a { text-decoration:none; }
+a {color: #333; text-decoration: none; outline: none}
+table { border-collapse: collapse; }
+textarea {box-sizing: border-box; resize: none;}
+select {-webkit-border-radius: 0; -webkit-appearance: none; -moz-appearance: none; -webkit-appearance: none; appearance: none; box-sizing: border-box; cursor: pointer;}
+strong,em,p,h1,h2,h3,h4,span,td,button{font-style:normal; color:#333; margin: 0; letter-spacing: -0.5px;}
+ul { margin: 0;padding: 0;list-style: none;}
+img {max-width:100%;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clear::after {
+    content:""; 
+    display:block; 
+    clear:both;
 }
