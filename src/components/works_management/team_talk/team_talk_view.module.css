@@ -1,0 +1,170 @@
+.inner {
+    background: #fff;
+    min-height: 100vh;
+    padding: 110px 0 0 0;
+}
+.subtitle {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+}
+.subtitle p {
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom,#039DAE,#14B5A1);
+}
+/******************************/
+.wrap {
+    padding: 0 20px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.title + div {
+    margin: 10px 0 0 0;
+    overflow: hidden;
+}
+.title + div em {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    float: left;
+}
+.title + div span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+    float: right;
+}
+.wrap hr {
+    border: none;
+    background: #eee;
+    height: 1px;
+    margin: 10px 0;
+}
+.photo {
+    width: 280px;
+    height: 182px;
+    background: url(./photo/photo1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrap > p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 60px;
+}
+.wrap > .btn_wrap {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+.wrap > .btn_wrap button {
+    width: 58px;
+    height: 27px;
+    float: left;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999999;
+}
+.wrap > .btn_wrap img {
+    height: 12px;
+    margin: 0 3px 0 0;
+}
+.wrap > .btn_wrap button:last-child {
+    float: right;
+    background: #039DAE;
+    color: #fff;
+    font-weight: 400;
+    border-color: transparent;
+}
+.comment_wrap {
+    background: #F7FAFA;
+    padding: 20px;
+}
+.comment_wrap li {
+    border-bottom: 1px solid #eee;
+    padding: 0 0 10px 0;
+    margin: 0 0 20px 0;
+}
+.comment_wrap li:last-child {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+.comment_wrap li div {
+    overflow: hidden;
+}
+.comment_wrap li div strong {
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+}
+.comment_wrap li div span {
+    font-size: 12px;
+    float: right;
+    color: #666666;
+}
+.comment_wrap li p {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    line-height: 1.7;
+}
+.comment_wrap li .btn_wrap {
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.comment_wrap li .btn_wrap img {
+    height: 12px;
+    margin: 0 3px 0 0;
+}
+.comment_wrap li .btn_wrap button {
+    font-size: 12px;
+    font-weight: 300;
+    color: #7D7D7D;
+    border: none;
+    background: transparent;
+    padding: 0 15px 0 0;
+}
+
+.input {
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.input input {
+    border: none;
+    height: 28px;
+    float: left;
+    font-size: 13px;
+}
+.input input::placeholder {
+    font-size: 13px;
+    color: #CCCCCC;
+}
+.input button {
+    position: relative;
+    width: 40px;
+    height: 28px;
+    border: none;
+    background: #039DAE;
+    border-radius: 6px;
+    float: right;
+}
+.input button img {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

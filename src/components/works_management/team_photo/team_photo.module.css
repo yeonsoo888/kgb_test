@@ -1,0 +1,66 @@
+.inner {
+    background: #fff;
+    min-height: 100vh;
+    padding: 110px 0 0 0;
+}
+.subtitle {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+}
+.subtitle p {
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom,#039DAE,#14B5A1);
+}
+/******************************/
+.wrap {
+    padding: 0 20px;
+    text-align: center;
+}
+.wrap strong {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.wrap hr {
+    border: none;
+    background: #ddd;
+    height: 1px;
+    margin: 10px 0;
+}
+.wrap div {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.wrap div input[type="text"] {
+    width: calc(100% - 25px);
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    float: left;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
+.wrap div input[type="text"]::placeholder {
+    color: #CCCCCC;
+}
+.wrap div img {
+    float: right;    
+    width: 17px;
+    transform: translate(0,6px);
+}
+.fileUpLoad {
+    opacity: 0;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 0px;
+    border: none;
+    
+}

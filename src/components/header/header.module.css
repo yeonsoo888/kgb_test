@@ -134,9 +134,8 @@ header > div > span:nth-of-type(3) {
     transition: .5s ease;
 }
 .ul .onSubmenu {
-    max-height: 120px;
+    max-height: 200px;
     border-bottom: 1px solid #ccc;
-    transition: .5s ease;
 }
 .snsWrap {
     padding: 25px 0 0 20px;

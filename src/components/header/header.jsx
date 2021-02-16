@@ -77,7 +77,16 @@ const Header = () => {
                         <li onClick={handleSubmenu} id="sub1">
                             <p className={subMenu.sub1 ? [styles.active_p] : []}>작업/대리점관리</p>
                             <ul className={subMenu.sub1 ? [styles.onSubmenu] : []}>
-                                <li></li>
+                                <li><Link to='/month_schedule' onClick={handleNavClose}>관리작업일정(월별)</Link></li>
+                                <li><Link to='/estimate' onClick={handleNavClose}>방문 견적 입력</Link></li>
+                                <li><Link to='/personal_order_insert' onClick={handleNavClose}>개인오더 입력</Link></li>
+                                <li><Link to="/our_team_talktalk" onClick={handleNavClose}>우리팀 톡톡</Link></li>
+                                <li><Link to="/team_photo" onClick={handleNavClose}>팀 단체사진 등록</Link></li>
+                                <li><Link to="/support" onClick={handleNavClose}>지원요청 / 대기</Link></li>
+                                <li><a>긴급연락망</a></li>
+                                <li><a>상조회</a></li>
+                                <li><a>권역 및 대표</a></li>
+                                <li><a>담당 외주업체</a></li>
                             </ul>
                         </li>
                         <li onClick={handleSubmenu} id="sub2">
