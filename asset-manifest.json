@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/kgb_test/static/css/main.028c7ea3.chunk.css",
-    "main.js": "/kgb_test/static/js/main.b98a9070.chunk.js",
-    "main.js.map": "/kgb_test/static/js/main.b98a9070.chunk.js.map",
+    "main.css": "/kgb_test/static/css/main.672ff636.chunk.css",
+    "main.js": "/kgb_test/static/js/main.db756412.chunk.js",
+    "main.js.map": "/kgb_test/static/js/main.db756412.chunk.js.map",
     "runtime-main.js": "/kgb_test/static/js/runtime-main.bffe3509.js",
     "runtime-main.js.map": "/kgb_test/static/js/runtime-main.bffe3509.js.map",
-    "static/js/2.e0f27f78.chunk.js": "/kgb_test/static/js/2.e0f27f78.chunk.js",
-    "static/js/2.e0f27f78.chunk.js.map": "/kgb_test/static/js/2.e0f27f78.chunk.js.map",
+    "static/css/2.00850458.chunk.css": "/kgb_test/static/css/2.00850458.chunk.css",
+    "static/js/2.d5ae0244.chunk.js": "/kgb_test/static/js/2.d5ae0244.chunk.js",
+    "static/js/2.d5ae0244.chunk.js.map": "/kgb_test/static/js/2.d5ae0244.chunk.js.map",
     "index.html": "/kgb_test/index.html",
-    "static/css/main.028c7ea3.chunk.css.map": "/kgb_test/static/css/main.028c7ea3.chunk.css.map",
-    "static/js/2.e0f27f78.chunk.js.LICENSE.txt": "/kgb_test/static/js/2.e0f27f78.chunk.js.LICENSE.txt"
+    "static/css/2.00850458.chunk.css.map": "/kgb_test/static/css/2.00850458.chunk.css.map",
+    "static/css/main.672ff636.chunk.css.map": "/kgb_test/static/css/main.672ff636.chunk.css.map",
+    "static/js/2.d5ae0244.chunk.js.LICENSE.txt": "/kgb_test/static/js/2.d5ae0244.chunk.js.LICENSE.txt",
+    "static/media/team_talk_view.module.css": "/kgb_test/static/media/photo1.632c0110.jpg",
+    "static/media/photo_insert.d9f7a2e8.jpg": "/kgb_test/static/media/photo_insert.d9f7a2e8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bffe3509.js",
-    "static/js/2.e0f27f78.chunk.js",
-    "static/css/main.028c7ea3.chunk.css",
-    "static/js/main.b98a9070.chunk.js"
+    "static/css/2.00850458.chunk.css",
+    "static/js/2.d5ae0244.chunk.js",
+    "static/css/main.672ff636.chunk.css",
+    "static/js/main.db756412.chunk.js"
   ]
 }
