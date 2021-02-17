@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import DaumPostcode from "react-daum-postcode";
+import styles from './kakao_adress.module.css';
 
 const Kakaoadress = () => {
     const handleComplete = (data) => {
@@ -22,11 +23,13 @@ const Kakaoadress = () => {
     const openPopup = () => {
         setVisible("block");
     }
-
+    const closePopup = () => {
+        setVisible("none");
+    }
     const [visible, setVisible] = useState("none");
     
     const popupStyle = {
-        display: visible,
+        display: "block",
         position: "fixed",
         left: "50%",
         top: "50%",
@@ -45,25 +48,29 @@ const Kakaoadress = () => {
         margin: "0 0 10px 0"
     }    
 
-
+    const wrapStyle = {
+        display: visible,
+    }
 
     return (
         <>
             <div>
                 <span>출발지 주소</span>
-                <button type="button" onClick={openPopup}  >주소검색</button>
+                <button type="button" onClick={openPopup}>주소검색</button>
             </div>
-            <DaumPostcode
-                onComplete={handleComplete}
-                style={popupStyle}
-            />
+            <div className={styles.daum_wrap} style={wrapStyle} onClick={closePopup}>
+                <DaumPostcode
+                    onComplete={handleComplete}
+                    style={popupStyle}
+                />
+            </div>
             <div style={{margin: "10px 0 0 0"}}>
                 <input style={inputStyle} id="adress1" type="text" readOnly />
                 <input style={inputStyle} type="text" placeholder="상세주소"/>
             </div>
             <div>
                 <span>도착지 주소</span>
-                <button type="button"  >주소검색</button>
+                <button type="button">주소검색</button>
             </div>
             
             <div style={{margin: "10px 0 0 0"}}>

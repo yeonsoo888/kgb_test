@@ -15,6 +15,10 @@ import Personal_order_insert from "./components/works_management/personal/person
 import Team_talk from "./components/works_management/team_talk/team_talk";
 import Team_photo from "./components/works_management/team_photo/team_photo";
 import Support_list from "./components/works_management/support/support_list";
+import Emer_contact from "./components/works_management/emergency_contact_network/emer_contact";
+import Club from "./components/works_management/club/club";
+import Representative from "./components/works_management/representative/representative";
+import Management_quailty from "./components/management_quality/management_quailty";
 
 
 
@@ -34,6 +38,12 @@ function App() {
           <Route path="/our_team_talktalk"><Team_talk/></Route>
           <Route path="/team_photo"><Team_photo /></Route>
           <Route path="/support"><Support_list /></Route>
+          <Route path="/emergency_contact"><Emer_contact /></Route>
+          <Route path="/club"><Club /></Route>
+          <Route path="/representative"><Representative /></Route>
+
+          <Route path="/management_quailty"><Management_quailty /></Route>
+          
           <Route component={Notfound} />
         </Switch>
       </Router>

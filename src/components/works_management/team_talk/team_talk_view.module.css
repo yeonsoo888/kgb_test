@@ -1,7 +1,7 @@
 .inner {
     background: #fff;
     min-height: 100vh;
-    padding: 110px 0 0 0;
+    padding: 90px 0 0 0;
 }
 .subtitle {
     position: fixed;
@@ -144,6 +144,7 @@
 }
 .input input {
     border: none;
+    width: calc(100% - 55px);
     height: 28px;
     float: left;
     font-size: 13px;

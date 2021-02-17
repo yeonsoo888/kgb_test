@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './estimate_info.module.css';
-import data from '../../../data/data.json';
 
-const Estimate_info = () => {
+
+const Estimate_info = ({data}) => {
     const params = useParams();
     
     let selected_item = {

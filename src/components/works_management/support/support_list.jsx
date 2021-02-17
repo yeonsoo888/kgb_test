@@ -41,7 +41,7 @@ const Support_list = () => {
                 </div>
                 <Link to="/support/insert" className={styles.btn_insert}>+</Link>
             </Route>
-            <Route path="/support/view/:item_id"><Support_view /></Route>
+            <Route path="/support/view/:item_id"><Support_view data={data} /></Route>
             <Route path="/support/insert"><Support_insert /></Route>
         </>
     );

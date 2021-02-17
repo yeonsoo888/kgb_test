@@ -37,7 +37,7 @@ const Estimate = () => {
                 <div className={styles.btn_insert}><Link to="/estimate/insert">+</Link></div>
             </Route>
             <Route path="/estimate/info/:item_id">
-                <Estimate_info />
+                <Estimate_info data={data} />
             </Route>
             <Route path="/estimate/insert">
                 <Estimate_insert />

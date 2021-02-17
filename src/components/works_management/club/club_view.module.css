@@ -1,0 +1,56 @@
+.inner {
+    background: #fff;
+    min-height: 100vh;
+    padding: 90px 0 0 0;
+}
+.subtitle {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+}
+.subtitle p {
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom,#039DAE,#14B5A1);
+}
+/******************************/
+.listWrap {
+    padding: 0 20px;
+}
+.listWrap li {
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.listWrap li:last-child {
+    border-bottom: none;
+}
+.listWrap li span {
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    color: #909090;
+}
+.listWrap li strong {
+    display: inline-block;
+    width: calc(100% - 70px);
+    font-size: 12px;
+    font-weight: 500;
+    float: right;
+}
+.listWrap div {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 10px;
+    min-height: 175px;
+}
+.listWrap div p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.7;
+}

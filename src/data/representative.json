@@ -1,0 +1,114 @@
+{
+    "data" : 
+    [
+        {
+            "company" : "kgb",
+            "contents" : 
+            [
+                {
+                    "id" : "1",
+                    "place" : "서울동부",
+                    "place_cap" : "(권역장)",
+                    "store" : "KGB강남대리점",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "2",
+                    "place" : "서울동부",
+                    "store" : "KGB강남대리점",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "3",
+                    "place" : "서울동부",
+                    "store" : "KGB강남대리점",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                }
+            ]
+        },
+        {
+            "company" : "yes2404",
+            "contents" :
+            [
+                {
+                    "id" : "1",
+                    "place" : "서울동부",
+                    "store" : "yes2404",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "2",
+                    "place" : "서울동부",
+                    "store" : "yes2404",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "3",
+                    "place" : "서울동부",
+                    "store" : "yes2404",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                }
+            ]
+        },
+        {
+            "company" : "yes2424",
+            "contents" :
+            [
+                {
+                    "id" : "1",
+                    "place" : "서울동부",
+                    "store" : "yes2424",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "2",
+                    "place" : "서울동부",
+                    "store" : "yes2424",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "3",
+                    "place" : "서울동부",
+                    "store" : "yes2424",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                }
+            ]
+        },
+        {
+            "company" : "ycap",
+            "contents" :
+            [
+                {
+                    "id" : "1",
+                    "place" : "서울동부",
+                    "store" : "ycap",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "2",
+                    "place" : "서울동부",
+                    "store" : "ycap",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                },
+                {
+                    "id" : "3",
+                    "place" : "서울동부",
+                    "store" : "ycap",
+                    "name" : "홍길동",
+                    "number" : "010-0000-1110"
+                }
+            ]
+        }
+    ]
+}

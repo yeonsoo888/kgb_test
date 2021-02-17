@@ -1,7 +1,7 @@
 .inner {
     background: #F7FAFA;
     min-height: 100vh;
-    padding: 110px 0 0 0;
+    padding: 90px 0 0 0;
 }
 .subtitle {
     position: fixed;
@@ -18,3 +18,25 @@
     background: linear-gradient(to bottom,#039DAE,#14B5A1);
 }
 /******************************/
+.wrap {
+    padding: 0 20px;
+}
+.wrap ul {
+    background: #fff;
+    padding: 15px;
+}
+.wrap li {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+.wrap li span {
+    float: left;
+}
+.wrap li select {
+    float: right;
+}
+.wrap li strong {
+    float: right;
+}

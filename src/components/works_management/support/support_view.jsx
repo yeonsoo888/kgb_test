@@ -1,9 +1,8 @@
 import React from 'react';
 import { useHistory, useParams } from 'react-router-dom';
 import styles from './support_view.module.css';
-import data from '../../../data/support.json';
 
-const Support_view = () => {
+const Support_view = ({data}) => {
     
     const history = useHistory()
     const params = useParams()

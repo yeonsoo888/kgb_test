@@ -1,0 +1,62 @@
+.inner {
+    background: #F7FAFA;
+    min-height: 100vh;
+    padding: 90px 0 0 0;
+}
+.subtitle {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+}
+.subtitle p {
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom,#039DAE,#14B5A1);
+}
+/******************************/
+.subNav {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #039DAE
+}
+
+.subNav a {
+    display: inline-block;
+    padding: 0 7px 10px;
+    color: #666666;
+    font-size: 13px;
+}
+.contents_wrap {
+    background: #fff;
+    padding: 10px 20px;
+    min-height: calc(100vh - 120px);
+}
+.contents_wrap ul {
+    display: table;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+}
+.contents_wrap li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+.contents_wrap li:nth-of-type(1) {width:17%}
+.contents_wrap li:nth-of-type(2) {width:38%}
+.contents_wrap li:nth-of-type(3) {width:13%}
+.contents_wrap li:nth-of-type(4) {width:33%}
+.tableHead li {
+    letter-spacing: 0px;
+    font-weight: 600;
+}
